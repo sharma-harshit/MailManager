@@ -1,0 +1,38 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>WebSite3</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>VisualBasic</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>WebSite3</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx">Default.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.vb">Default.aspx.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default2.aspx">Default2.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default2.aspx.vb">Default2.aspx.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default3.aspx">Default3.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default3.aspx.vb">Default3.aspx.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default4.aspx">Default4.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default4.aspx.vb">Default4.aspx.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default5.aspx">Default5.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default5.aspx.vb">Default5.aspx.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default6.aspx">Default6.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default6.aspx.vb">Default6.aspx.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="fb.jpg">fb.jpg</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="google.JPG">google.JPG</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="logo.jpg">logo.jpg</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="orkut.jpg">orkut.jpg</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="twitter.jpg">twitter.jpg</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Web.config">Web.config</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="yahoo.jpg">yahoo.jpg</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
